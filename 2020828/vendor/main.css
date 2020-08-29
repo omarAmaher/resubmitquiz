@@ -1,0 +1,7 @@
+@font-face{
+    font-family: YanoneKaffeesatz;
+    src: url('../vendor/fonts/static/YanoneKaffeesatz-Medium.ttf');
+}
+body{
+    font-family: YanoneKaffeesatz;
+}

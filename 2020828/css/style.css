@@ -1,0 +1,263 @@
+@charset 'utf-8';
+/* Main Style */
+*{
+    box-sizing: border-box;
+}
+html , body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7rem;
+    text-align: center;
+    color:#0a1f44;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.red{
+    color: #e01705;
+}
+.red-text{
+    color: #e01705;
+}
+.blue{
+    color: #0a1f44;
+}
+.blue-text{
+    color: #0a1f44;
+}
+.btn-outline1{
+    color: #fff;
+    background-color:#e01705 ;
+}
+.btn-outline2{
+    color: #fff;
+    background-color:#0a1f44;
+}
+/*topbar*/
+.topbar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color:#0a1f44;
+    color:white;
+    height: 40px;
+}
+.randomtext{
+    font-size: 15px;
+}
+
+/* Navbar Style */
+
+.navbar .container{
+    display: flex;
+    justify-content: center;
+}
+.navbar-expand-md{
+    background-color: white !important;
+    color: black !important;
+    height: 4rem;
+}
+.navbar-expand-md img{
+    
+    width: 1.5rem;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #0a1f44;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    padding: 0 12px;
+    color: #0a1f44;
+    font-weight: bold;
+}
+/* Banner Style*/
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 90px;
+    justify-content: space-between;
+}
+.buttons a:hover{
+    color: #fff;
+    box-shadow: #000;
+}
+.jumbotron .container img{
+    width: 350px;
+    height: 350px;
+}
+.jumbotron{
+    background-color: white;
+    padding-top : 80px;
+    margin: 0px 100px;
+}
+.jumbotron .container{
+    justify-content: space-between;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.jumbotron.btn{
+    background-color:#e01705 ;
+    font-size: 15px;
+}
+/*Features*/
+.features{
+    margin: 100px;
+    padding: 100px;
+}
+.features .header p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/*Specs*/
+
+.specs-header .header h6 {
+   font-weight: bold;
+}
+.specs-header .header p{
+    font-weight: bold;
+    font-size: 30px;
+}
+.specs-header .header .text p{
+    font-weight:100 ;
+    font-size: 15px;
+}
+.specs{
+    margin: 100px;
+    padding: 100px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: baseline;
+}
+.specs img{
+    width: 270px;
+    height: 400px;
+}
+.specs .header p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.specs .container .row{
+    display: flex;
+    justify-content: flex-end;
+}
+/*opinions*/
+.opinions{
+    margin: 20px;
+    padding: 100px;
+    text-align: center;
+}
+.opinions .container .row .card-body img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.opinions .container .row{
+    display: flex;
+    justify-content: center;
+}
+/*Frequently asked question*/
+.features{
+    margin: 20px;
+    padding: 100px;
+}
+.features .container {
+    text-align: justify;
+    font-size: 12px;
+}
+/*Sale*/
+.page-section{
+    margin: 20px;
+    padding: 100px;
+}
+.page-section h2{
+    font-weight: bolder;
+}
+/*Contact Us */
+.contact{
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact .form-group{
+    width: 40%;
+    margin: 0 auto;
+}
+.contact .form-group .form-control{
+    color: #1F2D41;
+    
+}
+
+.contact .btn-primary{
+    margin: 12px 0;
+    padding: 5px;
+    border-radius: 14px;
+    background-color: #e01705;
+    color: #fff;
+    border: none;
+    width: 30rem;
+}
+.contact .btn-primary:hover{
+    border: 2px groove #fff;
+}
+/*footer*/
+.footer-bottom{
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+}
+.footer {    
+	background: #0a1f44;
+    width: 100%;    
+}
+.footer img {
+    width: 2.5rem;
+}
+.footer a{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p {
+    color:white;
+}
+.footer ul {
+    display: flex;
+    flex-direction: row;
+	font-size: 13px;
+}
+.footer .navbar .container{
+    display: flex;
+    justify-content: center;
+}
+.footer .navbar-expand-md{
+    background-color: #0a1f44 !important;
+    color: black !important;
+    height: 10rem;
+}
+.footer .container .navbar-expand-md img{
+    width: 1.5rem;
+}
+.footer .navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.footer.navbar-nav .nav-item .nav-link:hover{
+    padding: 0 12px;
+    color: #0a1f44;
+    font-weight: bold;
+}
+.footer-bottom .container{
+    display: flex;
+    justify-content: space-between; 
+	border-top: 1px solid #fff;
+}
+
+.footer-bottom .icons{
+    color: #fff;
+}
